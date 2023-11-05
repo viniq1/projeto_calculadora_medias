@@ -8,6 +8,7 @@
 body {
     background-color: #e7e7e7;
     padding-top: 100px;
+    max-width: 100%;
 }
 
 header {
@@ -27,7 +28,7 @@ header h1 {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 90%;
     width: 100%;
     margin: 0 auto;
 }
@@ -42,6 +43,7 @@ form {
 
 form input {
     font-size: 24px;
+    margin: 0 auto;
     color: black;
     border: none;
     border-bottom: 2px solid black;
